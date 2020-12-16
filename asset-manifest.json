@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sniper-range-test/static/css/main.8964eede.chunk.css",
+    "main.js": "/sniper-range-test/static/js/main.2c355f91.chunk.js",
+    "main.js.map": "/sniper-range-test/static/js/main.2c355f91.chunk.js.map",
+    "runtime-main.js": "/sniper-range-test/static/js/runtime-main.128fae83.js",
+    "runtime-main.js.map": "/sniper-range-test/static/js/runtime-main.128fae83.js.map",
+    "static/js/2.a8bd5ab2.chunk.js": "/sniper-range-test/static/js/2.a8bd5ab2.chunk.js",
+    "static/js/2.a8bd5ab2.chunk.js.map": "/sniper-range-test/static/js/2.a8bd5ab2.chunk.js.map",
+    "static/js/3.97246341.chunk.js": "/sniper-range-test/static/js/3.97246341.chunk.js",
+    "static/js/3.97246341.chunk.js.map": "/sniper-range-test/static/js/3.97246341.chunk.js.map",
+    "index.html": "/sniper-range-test/index.html",
+    "static/css/main.8964eede.chunk.css.map": "/sniper-range-test/static/css/main.8964eede.chunk.css.map",
+    "static/js/2.a8bd5ab2.chunk.js.LICENSE.txt": "/sniper-range-test/static/js/2.a8bd5ab2.chunk.js.LICENSE.txt",
+    "static/media/field0.f92eb3d0.jpg": "/sniper-range-test/static/media/field0.f92eb3d0.jpg",
+    "static/media/field1.9be367e1.jpg": "/sniper-range-test/static/media/field1.9be367e1.jpg",
+    "static/media/field2.46e9c462.jpg": "/sniper-range-test/static/media/field2.46e9c462.jpg",
+    "static/media/field3.26b5e6ed.jpg": "/sniper-range-test/static/media/field3.26b5e6ed.jpg",
+    "static/media/field4.cdfe868b.jpg": "/sniper-range-test/static/media/field4.cdfe868b.jpg",
+    "static/media/field5.5fa73b23.jpg": "/sniper-range-test/static/media/field5.5fa73b23.jpg",
+    "static/media/field6.afbd0f13.jpg": "/sniper-range-test/static/media/field6.afbd0f13.jpg",
+    "static/media/field7.29abc759.jpg": "/sniper-range-test/static/media/field7.29abc759.jpg",
+    "static/media/field8.aaebe2a1.jpg": "/sniper-range-test/static/media/field8.aaebe2a1.jpg",
+    "static/media/mil_dot.4946f412.png": "/sniper-range-test/static/media/mil_dot.4946f412.png",
+    "static/media/tmr.f2de8f50.png": "/sniper-range-test/static/media/tmr.f2de8f50.png",
+    "static/media/tremor2.01b5314f.png": "/sniper-range-test/static/media/tremor2.01b5314f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.128fae83.js",
+    "static/js/2.a8bd5ab2.chunk.js",
+    "static/css/main.8964eede.chunk.css",
+    "static/js/main.2c355f91.chunk.js"
+  ]
+}
