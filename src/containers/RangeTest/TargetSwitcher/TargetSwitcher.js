@@ -55,9 +55,9 @@ const TargetSwitcher = props => {
             <React.Fragment>
                 <TestStats ranges={props.ranges} guessedRanges={guessedRanges.current} fields={props.fields}/>
                 <br/>
-                <ButtonLink href='sniper-range-test/rangetest'>Again</ButtonLink>
+                <ButtonLink action={props.resetTest}>Again</ButtonLink>
                 <br/>
-                <ButtonLink href='sniper-range-test/'>Home</ButtonLink>
+                <ButtonLink to='/'>Home</ButtonLink>
             </React.Fragment>;
 
 

@@ -5,9 +5,6 @@ import {calculateScore, filterRangesByVision} from '../../utility/utility';
 const TestStats = props => {
 
         const finalScore = calculateScore(props.ranges, props.guessedRanges);
-        
-        console.log(filterRangesByVision(props.ranges, props.fields, "d"),
-        filterRangesByVision(props.guessedRanges, props.fields, "d"));
 
         const dayScore = calculateScore(
                 filterRangesByVision(props.ranges, props.fields, "d"), 

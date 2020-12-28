@@ -21,6 +21,13 @@ const RangeTest = props => {
     const [isCountDown, setIsCountdown] = useState(true);
     const [level, setLevel] = useState(defaultLevel);
 
+    const resetTest = () => {
+        setIsReady(false);
+        setIsCountdown(true);
+        setLevel(defaultLevel);
+        console.log('[RangeTest.js] resetTest');
+    }
+
     let content = (
         <div>
             <h3>Ready?</h3>
@@ -91,7 +98,7 @@ const RangeTest = props => {
 
         content = (
             <div>
-                <TargetSwitcher ranges={ranges} fields={fields} countdownTime={countdownTime}/>
+                <TargetSwitcher ranges={ranges} fields={fields} countdownTime={countdownTime} resetTest={resetTest}/>
             </div>
         );
     }

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import classes from './App.module.css';
-import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import {HashRouter, BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 import RangeTest from './containers/RangeTest/RangeTest';
 import Signup from './containers/Signup/Signup';
 import Login from './containers/Login/Login';
@@ -66,13 +66,13 @@ const App = () => {
   );
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <AuthContext.Provider value={{state: authState, setState: setAuthState}}>
         <div className={classes.App}>
           {routes}
         </div>
       </AuthContext.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 
 };

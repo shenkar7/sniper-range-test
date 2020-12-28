@@ -11,12 +11,12 @@ export const Button = props => {
 }
 
 export const ButtonLink = props => {
-    let link;
+    let link = null;
     if(props.to)
         link = <Link className={classes.ButtonLink} to={props.to} replace={!props.replace}>{props.children}</Link>;
-    else
-        link = <a className={classes.ButtonLink} href={props.href}>{props.children}</a>
-    
+    else if(props.action)
+        link = <span className={classes.ButtonLink} onClick={props.action}>{props.children}</span>;
+
     return <div>{link}</div>;
 }
 
