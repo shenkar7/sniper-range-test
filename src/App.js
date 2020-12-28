@@ -3,9 +3,8 @@ import classes from './App.module.css';
 import {HashRouter, BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 import RangeTest from './containers/RangeTest/RangeTest';
 import Signup from './containers/Signup/Signup';
-import Login from './containers/Login/Login';
 import AuthContext from './authContext/authContext';
-import {ButtonLink, ButtonSmallLink} from './components/UI/Button/Button';
+import Home from './components/Home/Home';
 
 const App = () => {
 
@@ -15,9 +14,8 @@ const App = () => {
     email: localStorage.getItem('email')
   });
 
-  //////////////// userId unnecessary?
+  //////////////// is userId unnecessary?
 
-  // add auto login if token is still valid
   const logout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('expirationDate');
@@ -36,25 +34,7 @@ const App = () => {
     logout();
   }
 
-  const home = (
-    <main>
-      <header>
-        <h1>SNIPER RANGE TEST</h1>
-        <p className={classes.homeText}>
-          Test your ability to estimate the range of a target based on your reticle only.
-          </p>
-      </header>
-      <Login/>
-      {authState.token 
-      ? <ButtonSmallLink click={logout}>logout</ButtonSmallLink>
-      : <ButtonSmallLink to='/signup'>Sign up</ButtonSmallLink>
-      }
-      <br/>
-      <div className={classes.Menu}>
-        <ButtonLink className={classes.Link} to='/rangetest'>Demo</ButtonLink>
-      </div>
-    </main>
-  );
+  const home = <Home logout={logout}/>;
 
   let routes = (
     <Switch>
@@ -66,13 +46,13 @@ const App = () => {
   );
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <AuthContext.Provider value={{state: authState, setState: setAuthState}}>
         <div className={classes.App}>
           {routes}
         </div>
       </AuthContext.Provider>
-    </HashRouter>
+    </BrowserRouter>
   );
 
 };
