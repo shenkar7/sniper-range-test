@@ -66,7 +66,7 @@ const App = () => {
   );
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AuthContext.Provider value={{state: authState, setState: setAuthState}}>
         <div className={classes.App}>
           {routes}
