@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sniper-range-test/static/css/main.b94381a2.chunk.css",
-    "main.js": "/sniper-range-test/static/js/main.2f5afc8c.chunk.js",
-    "main.js.map": "/sniper-range-test/static/js/main.2f5afc8c.chunk.js.map",
+    "main.js": "/sniper-range-test/static/js/main.5d80f3e9.chunk.js",
+    "main.js.map": "/sniper-range-test/static/js/main.5d80f3e9.chunk.js.map",
     "runtime-main.js": "/sniper-range-test/static/js/runtime-main.c642fb6e.js",
     "runtime-main.js.map": "/sniper-range-test/static/js/runtime-main.c642fb6e.js.map",
     "static/js/2.337d2690.chunk.js": "/sniper-range-test/static/js/2.337d2690.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.c642fb6e.js",
     "static/js/2.337d2690.chunk.js",
     "static/css/main.b94381a2.chunk.css",
-    "static/js/main.2f5afc8c.chunk.js"
+    "static/js/main.5d80f3e9.chunk.js"
   ]
 }
