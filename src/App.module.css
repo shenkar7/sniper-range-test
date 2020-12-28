@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+
+.App header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1{
+  margin: 0.5em;
+}
+
+.homeText {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.Menu{
+  margin-top: 25px;
+}
+
+/* .Link{
+    color: #61dafb;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Link:hover {
+  color: #06b1e0;
+}
+
+.Link:active {
+  color: #03627c;
+} */
+
+.smallLink {
+  color: #61dafb;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.smallLink:hover {
+  color: #06b1e0;
+}
+
+.smallLink:active {
+  color: #03627c;
+}

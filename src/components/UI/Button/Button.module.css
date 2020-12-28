@@ -1,0 +1,57 @@
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.Button button{
+    box-sizing: border-box;
+    background-color: #4d4d4d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 7px 17px 7px 17px;
+}
+
+.Button button:hover, ButtonLink:hover{
+    background-color: #404040;
+}
+
+.Button button:active, ButtonLink:active{
+    outline: gray 1px solid;
+}
+
+
+.ButtonLink {
+  color: #61dafb;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ButtonLink:hover{
+  color: #06b1e0;
+}
+
+.ButtonLink:active{
+  color: #03627c;
+}
+
+
+.smallLink {
+    color: #61dafb;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .smallLink:hover {
+    color: #06b1e0;
+  }
+  
+  .smallLink:active {
+    color: #03627c;
+  }

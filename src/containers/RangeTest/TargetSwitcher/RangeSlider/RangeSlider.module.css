@@ -1,0 +1,91 @@
+
+.RangeSlider input{
+    -webkit-appearance: none;
+    width: 400px;
+}
+
+.RangeSlider input:focus{
+    outline: none;
+}
+
+.RangeSlider h2{
+    margin: 0 0 10px 0;
+}
+
+/* thumb */
+
+.RangeSlider input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #303030;
+    border: 2px solid rgb(179, 179, 179);
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.RangeSlider input::-webkit-slider-thumb:hover{
+    background-color: #202020;
+}
+
+.RangeSlider input::-moz-range-thumb{
+    
+}
+
+.RangeSlider input::-ms-thumb{
+    
+}
+
+/* track */
+
+.RangeSlider input::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.RangeSlider input::-webkit-slider-runnable-track:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+.RangeSlider input::-moz-range-track{
+    
+}
+
+.RangeSlider input::-ms-track{
+    
+}
+
+/* ticks */
+
+.ticks{
+    margin: auto;
+    margin-top: 5px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: */
+}
+
+.tick{
+    position: relative;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 750px) {
+    .RangeSlider{
+        width: 80%;
+        margin: auto;
+    }
+
+    .RangeSlider input{
+        width: 100%;
+    }
+
+    .ticks{
+        width: 100%;
+    }
+}

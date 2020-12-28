@@ -1,0 +1,12 @@
+
+
+.label {
+    display: block;
+}
+
+.InputElement {
+    outline: none;
+    border: 2px solid #262626;
+    background-color: #e6e6e6;
+    margin: 0 0 5px 0;
+}

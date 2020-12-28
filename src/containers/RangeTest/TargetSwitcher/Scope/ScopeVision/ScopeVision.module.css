@@ -1,0 +1,57 @@
+.ScopeVision{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.ScopeVision img{
+    height: 100%;
+    width: 100%;
+}
+
+.black{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle at center, transparent 70%, black 70.1%);
+    z-index: 3;
+    pointer-events: none;
+}
+
+.view {
+    position: absolute;
+    /* height: 500%;
+    width: 500%; */
+    z-index: 2;
+}
+
+.reticle{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.field {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.field img {
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .ScopeVision{
+        float: left;
+        
+    }
+}

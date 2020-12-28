@@ -1,0 +1,15 @@
+.levels {
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}
+
+.levels input {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.levels label {
+    cursor: pointer;
+    -webkit-user-select: none;
+}
