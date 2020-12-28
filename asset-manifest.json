@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sniper-range-test/static/css/main.cd714e66.chunk.css",
-    "main.js": "/sniper-range-test/static/js/main.ee6760ec.chunk.js",
-    "main.js.map": "/sniper-range-test/static/js/main.ee6760ec.chunk.js.map",
-    "runtime-main.js": "/sniper-range-test/static/js/runtime-main.c642fb6e.js",
-    "runtime-main.js.map": "/sniper-range-test/static/js/runtime-main.c642fb6e.js.map",
-    "static/js/2.337d2690.chunk.js": "/sniper-range-test/static/js/2.337d2690.chunk.js",
-    "static/js/2.337d2690.chunk.js.map": "/sniper-range-test/static/js/2.337d2690.chunk.js.map",
-    "static/js/3.7efbf821.chunk.js": "/sniper-range-test/static/js/3.7efbf821.chunk.js",
-    "static/js/3.7efbf821.chunk.js.map": "/sniper-range-test/static/js/3.7efbf821.chunk.js.map",
+    "main.css": "/sniper-range-test/static/css/main.a19d312e.chunk.css",
+    "main.js": "/sniper-range-test/static/js/main.45e55336.chunk.js",
+    "main.js.map": "/sniper-range-test/static/js/main.45e55336.chunk.js.map",
+    "runtime-main.js": "/sniper-range-test/static/js/runtime-main.add68b7c.js",
+    "runtime-main.js.map": "/sniper-range-test/static/js/runtime-main.add68b7c.js.map",
+    "static/js/2.9fdd2a6f.chunk.js": "/sniper-range-test/static/js/2.9fdd2a6f.chunk.js",
+    "static/js/2.9fdd2a6f.chunk.js.map": "/sniper-range-test/static/js/2.9fdd2a6f.chunk.js.map",
+    "static/js/3.515c76ed.chunk.js": "/sniper-range-test/static/js/3.515c76ed.chunk.js",
+    "static/js/3.515c76ed.chunk.js.map": "/sniper-range-test/static/js/3.515c76ed.chunk.js.map",
     "index.html": "/sniper-range-test/index.html",
-    "static/css/main.cd714e66.chunk.css.map": "/sniper-range-test/static/css/main.cd714e66.chunk.css.map",
-    "static/js/2.337d2690.chunk.js.LICENSE.txt": "/sniper-range-test/static/js/2.337d2690.chunk.js.LICENSE.txt",
+    "static/css/main.a19d312e.chunk.css.map": "/sniper-range-test/static/css/main.a19d312e.chunk.css.map",
+    "static/js/2.9fdd2a6f.chunk.js.LICENSE.txt": "/sniper-range-test/static/js/2.9fdd2a6f.chunk.js.LICENSE.txt",
     "static/media/field0d.afbd0f13.jpg": "/sniper-range-test/static/media/field0d.afbd0f13.jpg",
     "static/media/field0n.29abc759.jpg": "/sniper-range-test/static/media/field0n.29abc759.jpg",
     "static/media/field0t.aaebe2a1.jpg": "/sniper-range-test/static/media/field0t.aaebe2a1.jpg",
@@ -26,9 +26,9 @@
     "static/media/tremor2.01b5314f.png": "/sniper-range-test/static/media/tremor2.01b5314f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c642fb6e.js",
-    "static/js/2.337d2690.chunk.js",
-    "static/css/main.cd714e66.chunk.css",
-    "static/js/main.ee6760ec.chunk.js"
+    "static/js/runtime-main.add68b7c.js",
+    "static/js/2.9fdd2a6f.chunk.js",
+    "static/css/main.a19d312e.chunk.css",
+    "static/js/main.45e55336.chunk.js"
   ]
 }
