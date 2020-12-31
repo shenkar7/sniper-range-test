@@ -1,4 +1,5 @@
 import {calculateScore, filterRangesByVision} from '../../utility/utility';
+import TestTable from '../TestTable/TestTable';
 
 // import * as c from '../../utility/constants';
 
@@ -30,6 +31,7 @@ const TestStats = props => {
                                 <p>Night Score: {nightScore}%</p>
                                 <p>Thermal Score: {thermalScore}%</p>
                         </div>
+                        <TestTable ranges={props.ranges} vision={props.fields} guessedRanges={props.guessedRanges}/>
                 </div>
         );
 }

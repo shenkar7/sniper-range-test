@@ -21,7 +21,10 @@ const Home = props => {
             }
             <br/>
             <div className={classes.Menu}>
-                <ButtonLink to='/rangetest'>Demo</ButtonLink>
+                {authContext.state.token
+                ? <ButtonLink to='/rangetest'>Start Test</ButtonLink>
+                : <ButtonLink to='/rangetest'>Demo</ButtonLink>
+                }
             </div>
         </main>
     );

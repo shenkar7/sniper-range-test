@@ -1,13 +1,10 @@
-import React, {useState, useCallback, useRef/*, useContext*/} from 'react';
+import React, {useState, useCallback, useRef} from 'react';
 import classes from './TargetSwitcher.module.css';
 import RangeSlider from './RangeSlider/RangeSlider';
 import Countdown from '../../../components/Countdown/Countdown';
 import Scope from './Scope/Scope';
-import TestStats from '../../../components/TestStats/TestStats';
-// import AuthContext from '../../../authContext/authContext';
 import * as c from '../../../utility/constants';
-import {ButtonLink} from '../../../components/UI/Button/Button';
-// import axios from '../../../utility/axios';
+import TestEnd from './TestEnd/TestEnd';
 
 const TargetSwitcher = props => {
 
@@ -17,8 +14,6 @@ const TargetSwitcher = props => {
     const [estimatedRange, setEstimatedRange] = useState(c.DEFAULT_RANGE_VAL);
     const [endEstimate, setEndEstimate] = useState(false);
     const [reticle, setReticle] = useState(c.DEFAULT_RETICLE);
-
-    // const authContext = useContext(AuthContext);
 
     const onReticleChangesHandler = reticle => {
         setReticle(reticle);
@@ -51,20 +46,12 @@ const TargetSwitcher = props => {
         </React.Fragment>;
 
     if(round === props.ranges.length){
-        content = 
-            <React.Fragment>
-                <TestStats ranges={props.ranges} guessedRanges={guessedRanges.current} fields={props.fields}/>
-                <br/>
-                <ButtonLink action={props.resetTest}>Again</ButtonLink>
-                <br/>
-                <ButtonLink to='/'>Home</ButtonLink>
-            </React.Fragment>;
-
-
-        // if(authContext.state.token){
-        //     // POST game to database
-        // }
-
+        content = <TestEnd 
+                    ranges={props.ranges}
+                    guessedRanges={guessedRanges.current}
+                    fields={props.fields}
+                    resetTest={props.resetTest}
+                  />;
     }
 
     return(

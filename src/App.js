@@ -46,13 +46,13 @@ const App = () => {
   );
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AuthContext.Provider value={{state: authState, setState: setAuthState}}>
         <div className={classes.App}>
           {routes}
         </div>
       </AuthContext.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 
 };

@@ -1,0 +1,33 @@
+.Table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    color: #ebebeb;
+}
+
+.Table, .Table th, .Table td{
+    border: 1px solid #181818;
+}
+
+.Table th{
+    background-color: #1f2229;
+}
+
+.Table .good{
+    background-color: green;
+}
+
+.Table .medium{
+    background-color: orange;
+}
+
+.Table .bad{
+    background-color: red;
+}
+
+@media only screen and (max-width: 750px){
+    .Table {
+        font-size: 10px;
+        width: 90%;
+    }
+}
