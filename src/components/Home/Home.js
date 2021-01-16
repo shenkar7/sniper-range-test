@@ -13,6 +13,11 @@ const Home = props => {
             <header>
                 <h1>SNIPER RANGE TEST</h1>
                 <p className={classes.homeText}>Estimate the range of a targets with your reticle only.</p>
+                <p className={classes.homeText}>
+                    Use as guest, sign up or use the demo user:<br/>
+                    Email: asd@asd.com<br/>
+                    Password: asdasdasd
+                </p>
             </header>
             <Login/>
             {authContext.state.token 

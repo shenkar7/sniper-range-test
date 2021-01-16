@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react';
 import Countdown from '../../components/Countdown/Countdown';
-import {Button} from '../../components/UI/Button/Button';
+import {Button, ButtonLink} from '../../components/UI/Button/Button';
 import TargetSwitcher from './TargetSwitcher/TargetSwitcher';
 import classes from './RangeTest.module.css';
 import AuthContext from '../../authContext/authContext';
@@ -63,6 +63,8 @@ const RangeTest = props => {
                 </div>
             }
             <Button clicked={() => setIsReady(true)}>START</Button>
+            <br/>
+            <ButtonLink to='/'>Back</ButtonLink>
         </div>
     );
 

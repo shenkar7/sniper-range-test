@@ -41,8 +41,8 @@ const TargetSwitcher = props => {
         <React.Fragment>
             <div className={classes.round}>Round {round+1}/{props.ranges.length}</div>
             <Scope range={props.ranges[round]} field={props.fields[round]} reticle={reticle} onReticleChangesHandler={onReticleChangesHandler}/>
-            <Countdown time={props.countdownTime} countdownEnd={endCountdownHandler} text="continue"/>
             <RangeSlider rangeValue={estimatedRange} onChange={range => setEstimatedRange(range)}/>
+            <Countdown time={props.countdownTime} countdownEnd={endCountdownHandler} text="continue"/>
         </React.Fragment>;
 
     if(round === props.ranges.length){

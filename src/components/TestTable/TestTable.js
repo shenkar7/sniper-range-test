@@ -100,9 +100,9 @@ const TestTable = props => {
                     <tr key="visions">{renderVisions(0, 5)}</tr>
                     <tr key="guessed">{renderGuessed(0, 5)}</tr>
                     <tr>{renderHeader(5, props.ranges.length)}</tr>
-                    <tr key="ranges">{renderRanges(5, props.ranges.length)}</tr>
-                    <tr key="visions">{renderVisions(5, props.ranges.length)}</tr>
-                    <tr key="guessed">{renderGuessed(5, props.ranges.length)}</tr>
+                    <tr key="ranges2">{renderRanges(5, props.ranges.length)}</tr>
+                    <tr key="visions2">{renderVisions(5, props.ranges.length)}</tr>
+                    <tr key="guessed2">{renderGuessed(5, props.ranges.length)}</tr>
                 </tbody>
             </table>
         );
