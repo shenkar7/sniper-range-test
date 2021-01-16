@@ -1,0 +1,25 @@
+.TableTop{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    color: #ebebeb;
+    cursor: pointer;
+    user-select: none;
+}
+
+.TableTop tr{
+    background-color: #13151a;
+    border: 1px solid #181818;
+    font-weight: bold;
+}
+
+.score{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 750px){
+    .TableTop {
+        font-size: 10px;
+        width: 90%;
+    }
+}

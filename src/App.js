@@ -5,6 +5,7 @@ import RangeTest from './containers/RangeTest/RangeTest';
 import Signup from './containers/Signup/Signup';
 import AuthContext from './authContext/authContext';
 import Home from './components/Home/Home';
+import stats from './containers/Stats/Stats';
 
 const App = () => {
 
@@ -40,6 +41,7 @@ const App = () => {
     <Switch>
       <Route path='/rangetest' exact component={RangeTest}/>
       <Route path='/signup' exact component={Signup}/>
+      <Route path='/stats' exact component={stats}/>
       <Route path='/' exact render={() => home}/>
       <Redirect to='/'/>
     </Switch>

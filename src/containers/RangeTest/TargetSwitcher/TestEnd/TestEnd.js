@@ -15,14 +15,16 @@ const TestEnd = props => {
     
     useEffect(() => {
         if(authContext.state.token){
+            const date = new Date();
+            const dateString = date.toDateString().substring(4) + ' ' + date.toTimeString().substring(0, 8);
             const testData = {
                 email: authContext.state.email,
-                date: new Date(), 
+                date: dateString, 
                 ranges: props.ranges,
                 guessedRanges: props.guessedRanges,
                 fields: props.fields
             };
-            axios.post('/tests.json', testData)
+            axios.post('/tests.json?auth=' + authContext.state.token, testData)
             .then(() => {
                 setIsLoading(false);
             })

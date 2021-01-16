@@ -26,7 +26,7 @@ const Scope = React.memo(props => {
                     checked={props.reticle === "mildot"}
                     onChange={onReticleChangesHandler}
                 />
-                <label htmlFor="mildot">mildot</label>
+                <label htmlFor="mildot">Mil Dot</label>
             </div>
             <div className={classes.singleInput}>
                 <input
@@ -37,7 +37,7 @@ const Scope = React.memo(props => {
                     checked={props.reticle === "tmr"}
                     onChange={onReticleChangesHandler}
                 />
-                <label htmlFor="tmr">tmr</label>
+                <label htmlFor="tmr">TMR</label>
             </div>
             <div className={classes.singleInput}>
                 <input
@@ -48,7 +48,7 @@ const Scope = React.memo(props => {
                     checked={props.reticle === "tremor2"}
                     onChange={onReticleChangesHandler}
                 />
-                <label htmlFor="tremor2">tremor2</label>
+                <label htmlFor="tremor2">Tremor2</label>
             </div>
         </div>;
 

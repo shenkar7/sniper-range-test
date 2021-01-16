@@ -22,8 +22,12 @@ const Home = props => {
             <br/>
             <div className={classes.Menu}>
                 {authContext.state.token
-                ? <ButtonLink to='/rangetest'>Start Test</ButtonLink>
-                : <ButtonLink to='/rangetest'>Demo</ButtonLink>
+                ? <React.Fragment>
+                    <ButtonLink to='/rangetest'>Start Test</ButtonLink>
+                    <br/>
+                    <ButtonLink to='/stats'>Statistics</ButtonLink>
+                  </React.Fragment>
+                : <ButtonLink to='/rangetest'>Guest Demo</ButtonLink>
                 }
             </div>
         </main>

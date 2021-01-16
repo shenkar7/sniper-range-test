@@ -1,7 +1,6 @@
 import {calculateScore, filterRangesByVision} from '../../utility/utility';
 import TestTable from '../TestTable/TestTable';
 
-// import * as c from '../../utility/constants';
 
 const TestStats = props => {
 
