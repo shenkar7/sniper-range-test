@@ -13,11 +13,19 @@ const Home = props => {
             <header>
                 <h1>SNIPER RANGE TEST</h1>
                 <p className={classes.homeText}>Estimate the range of a targets with your reticle only.</p>
-                <p className={classes.homeText}>
-                    Use as guest, sign up or use the demo user:<br/>
-                    Email: asd@asd.com<br/>
-                    Password: asdasdasd
-                </p>
+                {authContext.state.token
+                ? null
+                : <React.Fragment>
+                    <p className={classes.guestText}>
+                        Use as guest, sign up or use the demo user:
+                    </p>
+                    <p className={classes.mailPassText}>
+                        Email: asd@asd.com<br/>
+                        Password: asdasdasd
+                    </p>
+                  </React.Fragment>
+                  
+                }
             </header>
             <Login/>
             {authContext.state.token 
